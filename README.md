@@ -90,10 +90,13 @@ This notation is also leastly used because there are very rare use cases where w
 
 **Calculating Time Complexity of constant algorithm**
 <img width="708" alt="image" src="https://github.com/mahidhardurga/DSA_Java/assets/74899841/355d8cf9-4439-4ede-ad65-e77ade7583ee">
+
 Here the time taken to complete the function is constant irrespective of the input data this is called constant algorithm
+
 <img width="737" alt="image" src="https://github.com/mahidhardurga/DSA_Java/assets/74899841/a8a87d50-6d0f-4135-bb57-d8052e9c5a53">
 
 In the below example as well we can see that whatever input we give it will complete the execution in constant amount of time
 lets say if the arr is 100000 it will take constant amount of time, even if it is 1 it will take the same amount of time
+
 <img width="329" alt="image" src="https://github.com/mahidhardurga/DSA_Java/assets/74899841/ded5cbd5-9299-4078-bf8b-89a9a4d9e83e">
 
