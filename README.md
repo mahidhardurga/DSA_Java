@@ -72,3 +72,28 @@ By Lower and upper bound means for any given input this notation determines aver
 
 For Ex:- if we run certainalgorithm and takes 100 secs for sirst time run, 120 secs for second run, 110 for third run and so on. so, theta notations gives an average of running time of that algorithm
 This notation is also leastly used because there are very rare use cases where we actually determine average time taken by algorithm to complete
+
+
+**Analysis of Time Complexity(Big O Notation)**
+**Rules**
+1. it's a single processor
+2. it performs sequential Execution of statements
+3. Assignment operation takes 1 unit of time (int x=5;)
+4. Return statement takes 1 unit of time(return x;)
+5. Arthimatical operations takes 1 unit of time(x+y;)
+6. Logical operations takes 1 unit of time(x && y;)
+7. Other small/Single operations take 1 unit of time
+8. Drop lower order terms (T=n^2+3**n**+1  ==> O(n^2))
+9. Drop Constant multipliers (T=**3**n^2+**6**n+**1**)
+
+
+
+**Calculating Time Complexity of constant algorithm**
+<img width="708" alt="image" src="https://github.com/mahidhardurga/DSA_Java/assets/74899841/355d8cf9-4439-4ede-ad65-e77ade7583ee">
+Here the time taken to complete the function is constant irrespective of the input data this is called constant algorithm
+<img width="737" alt="image" src="https://github.com/mahidhardurga/DSA_Java/assets/74899841/a8a87d50-6d0f-4135-bb57-d8052e9c5a53">
+
+In the below example as well we can see that whatever input we give it will complete the execution in constant amount of time
+lets say if the arr is 100000 it will take constant amount of time, even if it is 1 it will take the same amount of time
+<img width="329" alt="image" src="https://github.com/mahidhardurga/DSA_Java/assets/74899841/ded5cbd5-9299-4078-bf8b-89a9a4d9e83e">
+
